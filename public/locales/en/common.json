@@ -1,0 +1,12 @@
+{
+  "documentatino": "documentation",
+  "loading": "loading",
+  "techcard": {
+    "nextjs": {
+      "description": "The React Framework for Production"
+    },
+    "prisma": {
+      "description": "Build data-driven JavaScript & TypeScript apps in less time"
+    }
+  }
+}

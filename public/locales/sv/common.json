@@ -1,0 +1,13 @@
+{
+  "documentatino": "dokumentation",
+  "loading": "laddar",
+  "this-stack-uses": "Denna stack använder",
+  "techcard": {
+    "nextjs": {
+      "description": "React biblioteket för produktion"
+    },
+    "prisma": {
+      "description": "Bygg data drivna JavaScript & TypeScript applikationer på mindre tid"
+    }
+  }
+}
