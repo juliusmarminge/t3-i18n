@@ -3,11 +3,15 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Head from "next/head";
 
+import nextI18nConfig from "../../next-i18next.config.mjs";
 import { trpc } from "../utils/trpc";
 
 export const getServerSideProps = async ({ locale }: { locale: string }) => ({
   props: {
-    ...(await serverSideTranslations(locale, ["common"], null, ["en", "sv"])),
+    ...(await serverSideTranslations(locale, ["common"], nextI18nConfig, [
+      "en",
+      "sv",
+    ])),
   },
 });
 

@@ -1,6 +1,6 @@
 // @ts-check
 import { env } from "./src/env/server.mjs";
-import config from "./next-i18next.config.js";
+import config from "./next-i18next.config.mjs";
 
 /**
  * Don't be scared of the generics here.
