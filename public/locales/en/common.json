@@ -1,7 +1,7 @@
 {
   "documentation": "documentation",
   "loading": "loading",
-  "this-stack-uses": "This stack uses"
+  "this-stack-uses": "This stack uses",
   "techcard": {
     "nextjs": {
       "description": "The React Framework for Production"
